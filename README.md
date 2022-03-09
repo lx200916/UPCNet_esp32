@@ -25,11 +25,11 @@
 * 若刷入成功并启动,且Serial Monitor中可以看到如下信息:"Client Num:0".使用手机连接`AutoConnectAP`的WiFi热点(默认密码 12345678),并在`Serial Monitor`中查看是否能看到"Client Num:1".
 * 手机应当提示网络认证并自动打开配置网页.如图:
 
-<img src="https://storage.googleapis.com/papyrus_images/d6d89926dfd62c31cf5ef544fd4a23f5" width="200px">
+![](assets/1.jpg)
 
 * 进入`Configure WiFi`页面,选取WiFi或手动输入要连接的WiFi SSID,输入WiFi密码,并在第二部分输入你的网络登录信息,学号\密码\服务类型.点击`Save`提交.
 
-![](https://storage.googleapis.com/papyrus_images/3fa6a56948de1d43f270225d84da0442)
+![](assets/2.jpg)
 
 * 连接成功后`AutoConnectAP`会消失,在`Serial Monitor`中可见`username is not empty`等字样,并输出IP信息.
 * 开发板在正常运行时会间隔30s检测一次网络是否连通,若未连通则尝试登录.
