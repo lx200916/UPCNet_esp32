@@ -15,8 +15,8 @@
 
 ## 开始使用
 ### ⚙ 支持的设备
-* ESP32 NodeMCU (ESP32 Devkit v1 测试通过)
-* ESP8266 (未测试)
+* ESP32 (ESP32 Devkit v1(床底翻出来的开发板) 测试通过)
+* ESP8266 (NodeMCU 测试通过)
 * ESP32C3 (合宙 ESP32C3开发板 测试通过)
 ### 🧮 刷入与配置
 * 使用PlatformIO Home中的`Open Project` 打开项目,连接开发板.
