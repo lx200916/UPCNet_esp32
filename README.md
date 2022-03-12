@@ -34,4 +34,8 @@
 * 连接成功后`AutoConnectAP`会消失,在`Serial Monitor`中可见`username is not empty`等字样,并输出IP信息.
 * 开发板在正常运行时会间隔30s检测一次网络是否连通,若未连通则尝试登录.
 
-
+## 使用的开源项目
+* [UPCNet](https://github.com/EndangeredF1sh/UPCNet)
+* [WiFiManager](https://github.com/tzapu/WiFiManager)
+* [HTTPClient](https://github.com/espressif/arduino-esp32/tree/master/libraries/HTTPClient)
+* [arduino-esp32](https://github.com/espressif/arduino-esp32)
