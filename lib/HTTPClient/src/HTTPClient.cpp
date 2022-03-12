@@ -1,3 +1,4 @@
+#ifdef ESP32
 #include <HardwareSerial.h>
 /**
  * HTTPClient.cpp
@@ -1694,3 +1695,4 @@ bool HTTPClient::generateCookieString(String *cookieString)
     
     return found;
 }
+#endif

@@ -4,7 +4,7 @@
 
 ![Made With PlatformIO](https://img.shields.io/badge/Made%20With-PlatformIO-brightgreen)
 
-![ESP32](https://img.shields.io/badge/ESP-32-000000.svg?longCache=true&style=flat&colorA=CC101F)
+![ESP32](https://img.shields.io/badge/ESP-32-000000.svg?longCache=true&style=flat&colorA=CC101F) ![ESP32C3](https://img.shields.io/badge/ESP-32C3-000000.svg?longCache=true&style=flat&colorA=CC101F) ![ESP8266](https://img.shields.io/badge/ESP-8266-000000.svg?longCache=true&style=flat&colorA=CC101F)
 
 将`UPCNet` 移植到 `Espressif` 平台,以更便宜和简单的方式实现网络登录.
 </div>
@@ -17,7 +17,7 @@
 ### ⚙ 支持的设备
 * ESP32 NodeMCU (ESP32 Devkit v1 测试通过)
 * ESP8266 (未测试)
-* ESP32C3 (理论上可用,需要等待工具链更新)
+* ESP32C3 (合宙 ESP32C3开发板 测试通过)
 ### 🧮 刷入与配置
 * 使用PlatformIO Home中的`Open Project` 打开项目,连接开发板.
 * 在`PIO侧栏`中根据开发板架构类型选取`esp32`/`esp8266`/`esp32c3`环境.你可以根据具体开发板型号修改`platformio.ini`文件中相应架构下的`borad`参数.具体值可在[Borads](https://docs.platformio.org/en/latest/boards/index.html#boards)中查找.

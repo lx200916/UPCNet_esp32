@@ -23,6 +23,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  *
  */
+#ifdef ESP32
 
 #ifndef HTTPClient_H_
 #define HTTPClient_H_
@@ -310,3 +311,4 @@ protected:
 
 
 #endif /* HTTPClient_H_ */
+#endif

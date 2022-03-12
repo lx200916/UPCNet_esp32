@@ -25,7 +25,12 @@ void setup()
   // put your setup code here, to run once:
 
   Serial.println("mounting FS...");
+  #ifdef ESP32
   if (SPIFFS.begin(FORMAT_SPIFFS_IF_FAILED))
+  #endif
+#ifdef ESP8266
+    if (SPIFFS.begin())
+#endif
   {
     Serial.println("mounted file system");
     if (SPIFFS.exists("/config.json"))
@@ -77,6 +82,7 @@ void setup()
   wifiManager.addParameter(&custom_hidden);
 
   wifiManager.addParameter(&serviceField);
+  wifiManager.setConfigPortalTimeout(600);
 
   if (!wifiManager.autoConnect("AutoConnectAP", "12345678"))
   {
